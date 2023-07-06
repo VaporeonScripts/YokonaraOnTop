@@ -22,7 +22,7 @@
 
 
 -- Important Variables
-local SCRIPT_NAME = "Rafa PSX GUI"
+local SCRIPT_NAME = "COEMS PSX GUI"
 local SCRIPT_VERSION = "v0.4" -- Hey rafa remember to change it before updating lmao
 
 -- Detect if the script has executed by AutoExec
@@ -518,9 +518,9 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 	
 
 	local Window = Rayfield:CreateWindow({
-	   Name = "Pet Simulator GUI | by Rafa ",
+	   Name = "Pet Simulator GUI | by COEMS ",
 	   LoadingTitle = SCRIPT_NAME .. " " .. SCRIPT_VERSION,
-	   LoadingSubtitle = "by Rafa",
+	   LoadingSubtitle = "by COEMS",
 	   ConfigurationSaving = {
 		  Enabled = true,
 		  FolderName = "Rafa",
