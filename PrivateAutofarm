@@ -534,12 +534,12 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 		if not isfile("Rafa/AcceptedTerms.txt") then 
 			Window:Prompt({
 				Title = 'Disclaimer',
-				SubTitle = 'Misuse of this script may result in penalties!',
-				Content = "I am not responsible for any harm caused by this tool, use at your own risk.",
+				SubTitle = 'Misuse of this script may result in Big COEMS!',
+				Content = "I am not responsible for any COEMS caused by this tool, use at your own risk.",
 				Actions = {
 					
 					Accept = {
-						Name = "Ok",
+						Name = "Ok now let me play retard",
 						Callback = function()
 							if not isfolder("Rafa") then makefolder("Rafa") end
 							writefile("Rafa/AcceptedTerms.txt", "true")
@@ -599,7 +599,7 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 	
 	
 	local autoFarmTab = Window:CreateTab("Farm", "13075651575", true)
-	local stats = autoFarmTab:CreateParagraph({Title = "Hello, <b><font color=\"#2B699F\">" .. LocalPlayer.DisplayName .. "</font></b>!", Content = "Thanks for using my script! - Rafa\nMake sure to join us at <b><font color=\"#2B699F\">discord.gg/MilkUp</font></b>"})
+	local stats = autoFarmTab:CreateParagraph({Title = "Hello, <b><font color=\"#2B699F\">" .. LocalPlayer.DisplayName .. "</font></b>!", Content = "Thanks for using my script! - Hellcrypt\nMake sure to join us at <b><font color=\"#2B699F\">discord.gg/dd7RM4kP9G</font></b>"})
 	local autoFarmSection = autoFarmTab:CreateSection("Auto Farm", false, false, "7785988164")
 	local enableAutoFarm = false
 	autoFarmTab:CreateToggle({
