@@ -2049,20 +2049,20 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 		end
 
 		local embed = {
-				["title"] = "Daycare has been collected! " .. gamemode,
-				["description"] = "Successfully collected **".. tostring(quantity) .."** pets from daycare!",
+				["title"] = "Daycare has been bombed from America! " .. gamemode,
+				["description"] = "Successfully killed **".. tostring(quantity) .."** pets from daycare!",
 				["color"] = tonumber(0x90ff90),
 
 				["fields"] = {
 					{
-						["name"] = "Collected Loot",
+						["name"] = "Collected coems bags",
 						["value"] = lootString,
 						["inline"] = false
 					}
 				},
 				["footer"] = {
-					["text"] = "Pet Simulator X",
-					["icon_url"] = "https://i.imgur.com/pWIzvzD.png"
+					["text"] = "Coems Simulator Hub",
+					["icon_url"] = "https://cdn.discordapp.com/attachments/1124620048640770109/1126777193536684102/Titanic_Neon_Agony.jpg"
 				}
 			}
 			
@@ -2073,8 +2073,8 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 				['Content-Type'] = 'application/json';
 			};
 			Body = HttpService:JSONEncode({
-				username = "Daycare Update", 
-				avatar_url = 'https://i.imgur.com/pWIzvzD.png',
+				username = "Bombing Update", 
+				avatar_url = 'https://cdn.discordapp.com/attachments/1124620048640770109/1126777468028715170/Titanic_Deiven.jpg',
 				embeds = {embed} 
 			})
 		}
