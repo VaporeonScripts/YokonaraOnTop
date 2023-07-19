@@ -2062,7 +2062,7 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 				},
 				["footer"] = {
 					["text"] = "Coems Simulator Hub",
-					["icon_url"] = "https://cdn.discordapp.com/attachments/1124620048640770109/1126777193536684102/Titanic_Neon_Agony.jpg"
+					["icon_url"] = "https://cdn.discordapp.com/attachments/1124620048640770109/1129710578064162856/wp7151787.png"
 				}
 			}
 			
@@ -2074,7 +2074,7 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 			};
 			Body = HttpService:JSONEncode({
 				username = "Bombing Update", 
-				avatar_url = 'https://cdn.discordapp.com/attachments/1124620048640770109/1126777468028715170/Titanic_Deiven.jpg',
+				avatar_url = 'https://cdn.discordapp.com/attachments/1124620048640770109/1129710578064162856/wp7151787.png',
 				embeds = {embed} 
 			})
 		}
